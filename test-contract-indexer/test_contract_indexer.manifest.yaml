@@ -1,0 +1,13 @@
+---
+namespace: composabilitylabs
+identifier: test_contract_indexer
+abi: "./contract-abi.json"
+fuel_client: ~
+graphql_schema: schema/test_contract_indexer.schema.graphql
+module:
+  wasm: target/wasm32-unknown-unknown/release/test_contract_indexer.wasm
+metrics: ~
+contract_id: fuel1pztzy59xunq2scsq9tkufxnqm35kpqnwxzwu70ejtq936yt5f06qvkettc
+start_block: 4292974
+end_block: ~
+resumable: true
